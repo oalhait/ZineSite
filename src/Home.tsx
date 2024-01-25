@@ -23,10 +23,10 @@ const Home = () => {
         data-tf-auto-focus
         data-tf-medium="snippet"
       ></div>
-      <footer>
-        <p>
+      <footer style={{ right: "5px" }}>
+        <h3>
           <a href="/#help">Need Help?</a>
-        </p>
+        </h3>
         <p>© 2024 GLEEK LLC. All rights reserved.</p>
       </footer>
     </>
