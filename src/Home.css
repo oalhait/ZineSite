@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body,
+iframe {
+  border-radius: 0 !important;
+  background-color: #e79a31;
+}
+div.iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 95vh;
+  margin-bottom: 50px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  font-family: Open Sans, sans-serif;
+  text-align: right;
+  font-size: 10px;
+}
