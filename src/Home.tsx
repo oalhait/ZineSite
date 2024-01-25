@@ -24,6 +24,9 @@ const Home = () => {
         data-tf-medium="snippet"
       ></div>
       <footer>
+        <p>
+          <a href="/#help">Need Help?</a>
+        </p>
         <p>© 2024 GLEEK LLC. All rights reserved.</p>
       </footer>
     </>
