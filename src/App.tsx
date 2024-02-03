@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import { HashRouter } from "react-router-dom";
 import Help from "./Help";
 import Home from "./Home";
+import Privacy from "./Privacy";
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
       <Routes>
         <Route path="/help" element={<Help />} />
         <Route path="/" element={<Home />} />
+        <Route path="/privacy" element={<Privacy />} />
       </Routes>
     </HashRouter>
   );
